@@ -16,7 +16,7 @@ body {
   height: 90vh;
 }
 
-.main-container {
+.game__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@ body {
   height: 100%;
 }
 
-.btn-container {
+.game__btn {
   margin-top: 36px;
   display: flex;
   gap: 36px;
@@ -62,4 +62,8 @@ body {
   .btn-container {
     gap: 16px;
   }
+}
+
+.fa-solid {
+  margin-right: 10px;
 }
