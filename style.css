@@ -59,11 +59,11 @@ body {
     height: 30px;
   }
 
-  .btn-container {
-    gap: 16px;
+  .game__btn {
+    gap: 10px;
   }
 }
 
 .fa-solid {
-  margin-right: 10px;
+  margin-right: 5px;
 }
