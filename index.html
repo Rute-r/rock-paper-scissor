@@ -13,17 +13,24 @@
     <title>Rock, Paper and Scissors</title>
   </head>
   <body>
-    <div class="game__container">
+    <div>
+      <button class="button-language" id="buttonPt">PT</button>
+      <button class="button-language" id="buttonEn">EN</button>
+      <button class="button-language" id="buttonEs">ES</button>
+    </div>
+    <div class="game__container" id="gameContainer">
       <h1 class="game__text" id="playerText">You:</h1>
       <h1 class="game__text" id="computerText">Computer:</h1>
       <h1 class="game__text" id="winnerText">Winner:</h1>
 
-      <div class="game__btn">
-        <button class="btn"><i class="fa-solid fa-hand-fist fa-rotate-90"></i>ROCK</button>
-        <button class="btn"><i class="fa-solid fa-hand"></i>PAPER</button>
-        <button class="btn"><i class="fa-solid fa-hand-scissors"></i>SCISSORS</button>
+      <div class="game__btn" id="gameBtn">
+        <button class="btn" id="rock"><i class="fa-solid fa-hand-fist fa-rotate-90"></i>ROCK</button>
+        <button class="btn" id="paper"><i class="fa-solid fa-hand"></i>PAPER</button>
+        <button class="btn" id="scissors"><i class="fa-solid fa-hand-scissors"></i>SCISSORS</button>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="js/language.js"></script>
+    <script type="module" src="js/changeLang.js"></script>
   </body>
 </html>
